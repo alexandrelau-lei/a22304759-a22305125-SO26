@@ -52,17 +52,20 @@ int scheduler(uint32_t current_time_ms, queue_t *rq, queue_t *cq, pcb_t **cpu_ta
     if (*cpu_task) {
         (*cpu_task)->ellapsed_time_ms += TICKS_MS;
         if ((*cpu_task)->ellapsed_time_ms >= (*cpu_task)->time_ms) {
-            printf("Time [ms]: %d\tPID: %d\tSTART_RUNNING\n", current_time_ms, (*cpu_task)->pid);
+            printf("Time [ms]: %d\tPID: %d\tDONE\n", current_time_ms, (*cpu_task)->pid);
             finish_burst(current_time_ms, cq, *cpu_task);
             *cpu_task = NULL;
-        } /* else if time slice is finished
-            enqueue to the ready queue o task do CPU
-            *cpu_task = NULL; // Remove from CPU
-        */
+        } else if (sched_algo == SCHED_RR &&
+                   current_time_ms - (*cpu_task)->slice_start_ms >= TIME_SLICE_MS) {
+            printf("Time [ms]: %d\tPID: %d\tPREEMPTED (slice esgotado)\n",
+                   current_time_ms, (*cpu_task)->pid);
+            enqueue_pcb(rq, *cpu_task);   // volta ao fim da fila
+            *cpu_task = NULL;
+                   }
     }
 
     if (*cpu_task == NULL) {
-        if (sched_algo == SCHED_FIFO) {
+        if (sched_algo == SCHED_FIFO || sched_algo == SCHED_RR) {
             *cpu_task = dequeue_pcb(rq);
         } else if (sched_algo == SCHED_SJF) {
             *cpu_task = dequeue_pcb_sjf(rq);
