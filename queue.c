@@ -40,6 +40,8 @@ pcb_t *new_pcb(pid_t pid, uint32_t sockfd, uint32_t time_ms) {
     new_task->last_update_time_ms = 0;
     new_task->arrival_ms = 0;
     new_task->started = 0;
+    new_task->level = 0;
+    new_task->slice_full = 0;
     return new_task;
 }
 

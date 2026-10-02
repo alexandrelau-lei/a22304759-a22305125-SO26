@@ -27,6 +27,8 @@ typedef struct pcb_st{
     uint32_t last_update_time_ms;  // Last time the PCB was updated
     uint32_t arrival_ms;           // instante em que o burst chegou à ready queue
     uint8_t  started;              // 1 se já correu neste burst
+    uint8_t  level;                // nível MLFQ (0 = prioridade máxima)
+    uint8_t  slice_full;           // 1 se já esgotou um slice neste burst
 } pcb_t;
 
 #endif //PCB_H
