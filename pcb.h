@@ -25,6 +25,8 @@ typedef struct pcb_st{
     uint32_t slice_start_ms;       // Time when the current time slice started
     uint32_t sockfd;               // Socket file descriptor for communication with the application
     uint32_t last_update_time_ms;  // Last time the PCB was updated
+    uint32_t arrival_ms;           // instante em que o burst chegou à ready queue
+    uint8_t  started;              // 1 se já correu neste burst
 } pcb_t;
 
 #endif //PCB_H

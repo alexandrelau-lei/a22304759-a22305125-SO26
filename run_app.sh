@@ -10,12 +10,12 @@
 #   ./run_app.sh scenarios/1/A.csv scenarios/1/B.csv scenarios/1/C.csv
 #   ./run_app.sh -n 3 A-5-2.csv
 #
-# Binário: ./build/application (ou a variável de ambiente $APP, se definida).
+# Binário: ./cmake-build-debug/application (ou a variável de ambiente $APP, se definida).
 
 set -u
 
 HERE="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-APP="${APP:-$HERE/build/application}"
+APP="${APP:-$HERE/cmake-build-debug/application}"
 
 count=1
 if [ "${1:-}" = "-n" ]; then

@@ -39,6 +39,21 @@ static void finish_burst(uint32_t current_time_ms, queue_t *cq, pcb_t *task) {
     enqueue_pcb(cq, task);
 }
 
+
+static int warmup_state = 0;   // 0 = à espera do 1.º processo, 1 = a contar, 2 = pronto
+static uint32_t warmup_t0;
+
+static int warmup_ok(uint32_t now, queue_t *rq) {
+    if (warmup_state == 2) return 1;
+    if (warmup_state == 0) {
+        if (rq->size == 0) return 0;
+        warmup_state = 1;
+        warmup_t0 = now;
+    }
+    if (now - warmup_t0 >= 200) { warmup_state = 2; return 1; }
+    return 0;
+}
+
 /**
  * FIFO (First-In, First-Out) — não preemptivo.
  *
@@ -57,14 +72,18 @@ int scheduler(uint32_t current_time_ms, queue_t *rq, queue_t *cq, pcb_t **cpu_ta
             *cpu_task = NULL;
         } else if (sched_algo == SCHED_RR &&
                    current_time_ms - (*cpu_task)->slice_start_ms >= TIME_SLICE_MS) {
-            printf("Time [ms]: %d\tPID: %d\tPREEMPTED (slice esgotado)\n",
-                   current_time_ms, (*cpu_task)->pid);
-            enqueue_pcb(rq, *cpu_task);   // volta ao fim da fila
-            *cpu_task = NULL;
+            if (rq->size > 0) {
+                printf("Time [ms]: %d\tPID: %d\tPREEMPTED (slice esgotado)\n",
+                       current_time_ms, (*cpu_task)->pid);
+                enqueue_pcb(rq, *cpu_task);
+                *cpu_task = NULL;
+            } else {
+                (*cpu_task)->slice_start_ms = current_time_ms;
+            }
                    }
     }
 
-    if (*cpu_task == NULL) {
+    if (*cpu_task == NULL && warmup_ok(current_time_ms, rq)) {
         if (sched_algo == SCHED_FIFO || sched_algo == SCHED_RR) {
             *cpu_task = dequeue_pcb(rq);
         } else if (sched_algo == SCHED_SJF) {
@@ -74,6 +93,11 @@ int scheduler(uint32_t current_time_ms, queue_t *rq, queue_t *cq, pcb_t **cpu_ta
         }
         if (*cpu_task) {
             (*cpu_task)->slice_start_ms = current_time_ms;
+            if (!(*cpu_task)->started) {
+                (*cpu_task)->started = 1;
+                printf("Time [ms]: %d\tPID: %d\tRESPONSE_TIME: %d ms\n", current_time_ms,
+                       (*cpu_task)->pid, current_time_ms - (*cpu_task)->arrival_ms);
+            }
             printf("Time [ms]: %d\tPID: %d\tSTART_RUNNING\n", current_time_ms, (*cpu_task)->pid);
             return 1;
         }

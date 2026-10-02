@@ -38,6 +38,8 @@ pcb_t *new_pcb(pid_t pid, uint32_t sockfd, uint32_t time_ms) {
     new_task->time_ms = time_ms;
     new_task->ellapsed_time_ms = 0;
     new_task->last_update_time_ms = 0;
+    new_task->arrival_ms = 0;
+    new_task->started = 0;
     return new_task;
 }
 
@@ -251,6 +253,8 @@ void check_new_commands(queue_t *command_queue, queue_t *blocked_queue, queue_t 
             current_pcb->time_ms = msg.time_ms;
             current_pcb->ellapsed_time_ms = 0;
             current_pcb->status = TASK_RUNNING;
+            current_pcb->arrival_ms = current_time_ms;
+            current_pcb->started = 0;
             printf("Time [ms]: %d\tPID: %d\tSTART_TASK\n", current_time_ms, current_pcb->pid);
             enqueue_pcb(ready_queue, current_pcb);
 
