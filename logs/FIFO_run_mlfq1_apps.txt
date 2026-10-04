@@ -1,0 +1,119 @@
+[/home/aluno/Trabalho1/application.c:55] Application A (PID 191) sent RUN request for 300 ms
+[/home/aluno/Trabalho1/application.c:69] Received ACK from scheduler for application A (PID 191) at time 1016 ms
+
+[/home/aluno/Trabalho1/application.c:55] Application B (PID 193) sent RUN request for 300 ms
+[/home/aluno/Trabalho1/application.c:69] Received ACK from scheduler for application B (PID 193) at time 1048 ms
+
+[/home/aluno/Trabalho1/application.c:55] Application C (PID 195) sent RUN request for 12000 ms
+[/home/aluno/Trabalho1/application.c:69] Received ACK from scheduler for application C (PID 195) at time 1079 ms
+
+[/home/aluno/Trabalho1/application.c:55] Application A (PID 191) sent BLOCK request for 800 ms
+[/home/aluno/Trabalho1/application.c:69] Received ACK from scheduler for application A (PID 191) at time 1542 ms
+
+[/home/aluno/Trabalho1/application.c:55] Application B (PID 193) sent BLOCK request for 800 ms
+[/home/aluno/Trabalho1/application.c:69] Received ACK from scheduler for application B (PID 193) at time 1849 ms
+
+[/home/aluno/Trabalho1/application.c:55] Application A (PID 191) sent RUN request for 300 ms
+[/home/aluno/Trabalho1/application.c:69] Received ACK from scheduler for application A (PID 191) at time 2361 ms
+
+[/home/aluno/Trabalho1/application.c:55] Application B (PID 193) sent RUN request for 300 ms
+[/home/aluno/Trabalho1/application.c:69] Received ACK from scheduler for application B (PID 193) at time 2668 ms
+
+Enqueued burst: time=12000 ms, block=0 ms, nice=0, pages=[]
+Application C (PID 195) finished at time 14125 ms, Elapsed: 13.046 seconds, CPU: 12.000 seconds, BLOCKED: 0.000 seconds
+[/home/aluno/Trabalho1/application.c:55] Application A (PID 191) sent BLOCK request for 800 ms
+[/home/aluno/Trabalho1/application.c:69] Received ACK from scheduler for application A (PID 191) at time 14442 ms
+
+[/home/aluno/Trabalho1/application.c:55] Application B (PID 193) sent BLOCK request for 800 ms
+[/home/aluno/Trabalho1/application.c:69] Received ACK from scheduler for application B (PID 193) at time 14750 ms
+
+[/home/aluno/Trabalho1/application.c:55] Application A (PID 191) sent RUN request for 300 ms
+[/home/aluno/Trabalho1/application.c:69] Received ACK from scheduler for application A (PID 191) at time 15263 ms
+
+[/home/aluno/Trabalho1/application.c:55] Application B (PID 193) sent RUN request for 300 ms
+[/home/aluno/Trabalho1/application.c:69] Received ACK from scheduler for application B (PID 193) at time 15572 ms
+
+[/home/aluno/Trabalho1/application.c:55] Application A (PID 191) sent BLOCK request for 800 ms
+[/home/aluno/Trabalho1/application.c:69] Received ACK from scheduler for application A (PID 191) at time 15582 ms
+
+[/home/aluno/Trabalho1/application.c:55] Application B (PID 193) sent BLOCK request for 800 ms
+[/home/aluno/Trabalho1/application.c:69] Received ACK from scheduler for application B (PID 193) at time 15890 ms
+
+[/home/aluno/Trabalho1/application.c:55] Application A (PID 191) sent RUN request for 300 ms
+[/home/aluno/Trabalho1/application.c:69] Received ACK from scheduler for application A (PID 191) at time 16402 ms
+
+[/home/aluno/Trabalho1/application.c:55] Application B (PID 193) sent RUN request for 300 ms
+[/home/aluno/Trabalho1/application.c:69] Received ACK from scheduler for application B (PID 193) at time 16709 ms
+
+[/home/aluno/Trabalho1/application.c:55] Application A (PID 191) sent BLOCK request for 800 ms
+[/home/aluno/Trabalho1/application.c:69] Received ACK from scheduler for application A (PID 191) at time 16720 ms
+
+[/home/aluno/Trabalho1/application.c:55] Application B (PID 193) sent BLOCK request for 800 ms
+[/home/aluno/Trabalho1/application.c:69] Received ACK from scheduler for application B (PID 193) at time 17027 ms
+
+[/home/aluno/Trabalho1/application.c:55] Application A (PID 191) sent RUN request for 300 ms
+[/home/aluno/Trabalho1/application.c:69] Received ACK from scheduler for application A (PID 191) at time 17538 ms
+
+[/home/aluno/Trabalho1/application.c:55] Application B (PID 193) sent RUN request for 300 ms
+[/home/aluno/Trabalho1/application.c:55] Application A (PID 191) sent BLOCK request for 800 ms
+[/home/aluno/Trabalho1/application.c:69] Received ACK from scheduler for application B (PID 193) at time 17845 ms
+
+[/home/aluno/Trabalho1/application.c:69] Received ACK from scheduler for application A (PID 191) at time 17855 ms
+
+[/home/aluno/Trabalho1/application.c:55] Application B (PID 193) sent BLOCK request for 800 ms
+[/home/aluno/Trabalho1/application.c:69] Received ACK from scheduler for application B (PID 193) at time 18161 ms
+
+[/home/aluno/Trabalho1/application.c:55] Application A (PID 191) sent RUN request for 300 ms
+[/home/aluno/Trabalho1/application.c:69] Received ACK from scheduler for application A (PID 191) at time 18671 ms
+
+[/home/aluno/Trabalho1/application.c:55] Application B (PID 193) sent RUN request for 300 ms
+[/home/aluno/Trabalho1/application.c:69] Received ACK from scheduler for application B (PID 193) at time 18975 ms
+
+[/home/aluno/Trabalho1/application.c:55] Application A (PID 191) sent BLOCK request for 800 ms
+[/home/aluno/Trabalho1/application.c:69] Received ACK from scheduler for application A (PID 191) at time 18985 ms
+
+[/home/aluno/Trabalho1/application.c:55] Application B (PID 193) sent BLOCK request for 800 ms
+[/home/aluno/Trabalho1/application.c:69] Received ACK from scheduler for application B (PID 193) at time 19292 ms
+
+[/home/aluno/Trabalho1/application.c:55] Application A (PID 191) sent RUN request for 300 ms
+[/home/aluno/Trabalho1/application.c:69] Received ACK from scheduler for application A (PID 191) at time 19803 ms
+
+[/home/aluno/Trabalho1/application.c:55] Application B (PID 193) sent RUN request for 300 ms
+[/home/aluno/Trabalho1/application.c:55] Application A (PID 191) sent BLOCK request for 800 ms
+[/home/aluno/Trabalho1/application.c:69] Received ACK from scheduler for application B (PID 193) at time 20111 ms
+
+[/home/aluno/Trabalho1/application.c:69] Received ACK from scheduler for application A (PID 191) at time 20121 ms
+
+[/home/aluno/Trabalho1/application.c:55] Application B (PID 193) sent BLOCK request for 800 ms
+[/home/aluno/Trabalho1/application.c:69] Received ACK from scheduler for application B (PID 193) at time 20428 ms
+
+[/home/aluno/Trabalho1/application.c:55] Application A (PID 191) sent RUN request for 300 ms
+[/home/aluno/Trabalho1/application.c:69] Received ACK from scheduler for application A (PID 191) at time 20938 ms
+
+[/home/aluno/Trabalho1/application.c:55] Application B (PID 193) sent RUN request for 300 ms
+[/home/aluno/Trabalho1/application.c:69] Received ACK from scheduler for application B (PID 193) at time 21246 ms
+
+[/home/aluno/Trabalho1/application.c:55] Application A (PID 191) sent BLOCK request for 800 ms
+[/home/aluno/Trabalho1/application.c:69] Received ACK from scheduler for application A (PID 191) at time 21256 ms
+
+[/home/aluno/Trabalho1/application.c:55] Application B (PID 193) sent BLOCK request for 800 ms
+[/home/aluno/Trabalho1/application.c:69] Received ACK from scheduler for application B (PID 193) at time 21562 ms
+
+Enqueued burst: time=300 ms, block=800 ms, nice=0, pages=[]
+Enqueued burst: time=300 ms, block=800 ms, nice=0, pages=[]
+Enqueued burst: time=300 ms, block=800 ms, nice=0, pages=[]
+Enqueued burst: time=300 ms, block=800 ms, nice=0, pages=[]
+Enqueued burst: time=300 ms, block=800 ms, nice=0, pages=[]
+Enqueued burst: time=300 ms, block=800 ms, nice=0, pages=[]
+Enqueued burst: time=300 ms, block=800 ms, nice=0, pages=[]
+Enqueued burst: time=300 ms, block=800 ms, nice=0, pages=[]
+Application A (PID 191) finished at time 22063 ms, Elapsed: 21.047 seconds, CPU: 2.400 seconds, BLOCKED: 6.400 seconds
+Enqueued burst: time=300 ms, block=800 ms, nice=0, pages=[]
+Enqueued burst: time=300 ms, block=800 ms, nice=0, pages=[]
+Enqueued burst: time=300 ms, block=800 ms, nice=0, pages=[]
+Enqueued burst: time=300 ms, block=800 ms, nice=0, pages=[]
+Enqueued burst: time=300 ms, block=800 ms, nice=0, pages=[]
+Enqueued burst: time=300 ms, block=800 ms, nice=0, pages=[]
+Enqueued burst: time=300 ms, block=800 ms, nice=0, pages=[]
+Enqueued burst: time=300 ms, block=800 ms, nice=0, pages=[]
+Application B (PID 193) finished at time 22369 ms, Elapsed: 21.321 seconds, CPU: 2.400 seconds, BLOCKED: 6.400 seconds

@@ -1,0 +1,109 @@
+[/home/aluno/Trabalho1/queue.c:224] [Scheduler] New client connected: fd=4
+[/home/aluno/Trabalho1/queue.c:224] [Scheduler] New client connected: fd=5
+[/home/aluno/Trabalho1/queue.c:224] [Scheduler] New client connected: fd=6
+[/home/aluno/Trabalho1/queue.c:243] Connection closed by client (fd=4)
+[/home/aluno/Trabalho1/queue.c:243] Connection closed by client (fd=5)
+OSSIM scheduler configured with algorithm RR
+Scheduler server listening on /tmp/scheduler.sock...
+Time [ms]: 1013	PID: 315	START_TASK
+Time [ms]: 1044	PID: 317	START_TASK
+Time [ms]: 1074	PID: 319	START_TASK
+Time [ms]: 1217	PID: 315	RESPONSE_TIME: 204 ms
+Time [ms]: 1217	PID: 315	START_RUNNING
+Time [ms]: 1523	PID: 315	DONE
+Time [ms]: 1523	PID: 317	RESPONSE_TIME: 479 ms
+Time [ms]: 1523	PID: 317	START_RUNNING
+Time [ms]: 1829	PID: 317	DONE
+Time [ms]: 1829	PID: 319	RESPONSE_TIME: 755 ms
+Time [ms]: 1829	PID: 319	START_RUNNING
+Time [ms]: 2349	PID: 315	START_TASK
+Time [ms]: 2654	PID: 317	START_TASK
+Time [ms]: 2847	PID: 319	PREEMPTED (slice esgotado)
+Time [ms]: 2847	PID: 315	RESPONSE_TIME: 498 ms
+Time [ms]: 2847	PID: 315	START_RUNNING
+Time [ms]: 3152	PID: 315	DONE
+Time [ms]: 3152	PID: 317	RESPONSE_TIME: 498 ms
+Time [ms]: 3152	PID: 317	START_RUNNING
+Time [ms]: 3457	PID: 317	DONE
+Time [ms]: 3457	PID: 319	START_RUNNING
+Time [ms]: 3976	PID: 315	START_TASK
+Time [ms]: 4283	PID: 317	START_TASK
+Time [ms]: 4466	PID: 319	PREEMPTED (slice esgotado)
+Time [ms]: 4466	PID: 315	RESPONSE_TIME: 490 ms
+Time [ms]: 4466	PID: 315	START_RUNNING
+Time [ms]: 4771	PID: 315	DONE
+Time [ms]: 4771	PID: 317	RESPONSE_TIME: 488 ms
+Time [ms]: 4771	PID: 317	START_RUNNING
+Time [ms]: 5077	PID: 317	DONE
+Time [ms]: 5077	PID: 319	START_RUNNING
+Time [ms]: 5595	PID: 315	START_TASK
+Time [ms]: 5900	PID: 317	START_TASK
+Time [ms]: 6093	PID: 319	PREEMPTED (slice esgotado)
+Time [ms]: 6093	PID: 315	RESPONSE_TIME: 498 ms
+Time [ms]: 6093	PID: 315	START_RUNNING
+Time [ms]: 6399	PID: 315	DONE
+Time [ms]: 6399	PID: 317	RESPONSE_TIME: 499 ms
+Time [ms]: 6399	PID: 317	START_RUNNING
+Time [ms]: 6705	PID: 317	DONE
+Time [ms]: 6705	PID: 319	START_RUNNING
+Time [ms]: 6715	PID: 319	DONE
+Time [ms]: 7225	PID: 315	START_TASK
+Time [ms]: 7225	PID: 315	RESPONSE_TIME: 0 ms
+Time [ms]: 7225	PID: 315	START_RUNNING
+Time [ms]: 7235	PID: 319	START_TASK
+Time [ms]: 7531	PID: 317	START_TASK
+Time [ms]: 7531	PID: 315	DONE
+Time [ms]: 7531	PID: 319	RESPONSE_TIME: 296 ms
+Time [ms]: 7531	PID: 319	START_RUNNING
+Time [ms]: 7838	PID: 319	DONE
+Time [ms]: 7838	PID: 317	RESPONSE_TIME: 307 ms
+Time [ms]: 7838	PID: 317	START_RUNNING
+Time [ms]: 8144	PID: 317	DONE
+Time [ms]: 8359	PID: 315	START_TASK
+Time [ms]: 8359	PID: 315	RESPONSE_TIME: 0 ms
+Time [ms]: 8359	PID: 315	START_RUNNING
+Time [ms]: 8665	PID: 319	START_TASK
+Time [ms]: 8665	PID: 315	DONE
+Time [ms]: 8665	PID: 319	RESPONSE_TIME: 0 ms
+Time [ms]: 8665	PID: 319	START_RUNNING
+Time [ms]: 8970	PID: 317	START_TASK
+Time [ms]: 8970	PID: 319	DONE
+Time [ms]: 8970	PID: 317	RESPONSE_TIME: 0 ms
+Time [ms]: 8970	PID: 317	START_RUNNING
+Time [ms]: 9276	PID: 317	DONE
+Time [ms]: 9490	PID: 315	START_TASK
+Time [ms]: 9490	PID: 315	RESPONSE_TIME: 0 ms
+Time [ms]: 9490	PID: 315	START_RUNNING
+Time [ms]: 9802	PID: 319	START_TASK
+Time [ms]: 9802	PID: 315	DONE
+Time [ms]: 9802	PID: 319	RESPONSE_TIME: 0 ms
+Time [ms]: 9802	PID: 319	START_RUNNING
+Time [ms]: 10109	PID: 317	START_TASK
+Time [ms]: 10109	PID: 319	DONE
+Time [ms]: 10109	PID: 317	RESPONSE_TIME: 0 ms
+Time [ms]: 10109	PID: 317	START_RUNNING
+Time [ms]: 10416	PID: 317	DONE
+Time [ms]: 10632	PID: 315	START_TASK
+Time [ms]: 10632	PID: 315	RESPONSE_TIME: 0 ms
+Time [ms]: 10632	PID: 315	START_RUNNING
+Time [ms]: 10938	PID: 319	START_TASK
+Time [ms]: 10938	PID: 315	DONE
+Time [ms]: 10938	PID: 319	RESPONSE_TIME: 0 ms
+Time [ms]: 10938	PID: 319	START_RUNNING
+Time [ms]: 11242	PID: 317	START_TASK
+Time [ms]: 11242	PID: 319	DONE
+Time [ms]: 11242	PID: 317	RESPONSE_TIME: 0 ms
+Time [ms]: 11242	PID: 317	START_RUNNING
+Time [ms]: 11549	PID: 317	DONE
+Time [ms]: 12071	PID: 319	START_TASK
+Time [ms]: 12071	PID: 319	RESPONSE_TIME: 0 ms
+Time [ms]: 12071	PID: 319	START_RUNNING
+Time [ms]: 12378	PID: 319	DONE
+Time [ms]: 13210	PID: 319	START_TASK
+Time [ms]: 13210	PID: 319	RESPONSE_TIME: 0 ms
+Time [ms]: 13210	PID: 319	START_RUNNING
+Time [ms]: 16278	PID: 319	DONE
+
+[Signal] Caught signal 15 — stopping scheduler...
+[Scheduler] Cleaning up and shutting down...
+[Scheduler] Shutdown complete.

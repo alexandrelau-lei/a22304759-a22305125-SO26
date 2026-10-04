@@ -1,0 +1,25 @@
+[/home/aluno/Trabalho1/application.c:55] Application A (PID 175) sent RUN request for 6000 ms
+[/home/aluno/Trabalho1/application.c:69] Received ACK from scheduler for application A (PID 175) at time 1019 ms
+
+[/home/aluno/Trabalho1/application.c:55] Application B (PID 177) sent RUN request for 6000 ms
+[/home/aluno/Trabalho1/application.c:69] Received ACK from scheduler for application B (PID 177) at time 1050 ms
+
+[/home/aluno/Trabalho1/application.c:55] Application C (PID 179) sent RUN request for 6000 ms
+[/home/aluno/Trabalho1/application.c:69] Received ACK from scheduler for application C (PID 179) at time 1091 ms
+
+[/home/aluno/Trabalho1/application.c:55] Application D (PID 181) sent RUN request for 6000 ms
+[/home/aluno/Trabalho1/application.c:69] Received ACK from scheduler for application D (PID 181) at time 1122 ms
+
+[/home/aluno/Trabalho1/application.c:55] Application E (PID 183) sent RUN request for 6000 ms
+[/home/aluno/Trabalho1/application.c:69] Received ACK from scheduler for application E (PID 183) at time 1164 ms
+
+Enqueued burst: time=6000 ms, block=0 ms, nice=0, pages=[]
+Application A (PID 175) finished at time 7389 ms, Elapsed: 6.370 seconds, CPU: 6.000 seconds, BLOCKED: 0.000 seconds
+Enqueued burst: time=6000 ms, block=0 ms, nice=0, pages=[]
+Application B (PID 177) finished at time 13553 ms, Elapsed: 12.503 seconds, CPU: 6.000 seconds, BLOCKED: 0.000 seconds
+Enqueued burst: time=6000 ms, block=0 ms, nice=0, pages=[]
+Application C (PID 179) finished at time 19694 ms, Elapsed: 18.603 seconds, CPU: 6.000 seconds, BLOCKED: 0.000 seconds
+Enqueued burst: time=6000 ms, block=0 ms, nice=0, pages=[]
+Application D (PID 181) finished at time 25850 ms, Elapsed: 24.728 seconds, CPU: 6.000 seconds, BLOCKED: 0.000 seconds
+Enqueued burst: time=6000 ms, block=0 ms, nice=0, pages=[]
+Application E (PID 183) finished at time 32009 ms, Elapsed: 30.845 seconds, CPU: 6.000 seconds, BLOCKED: 0.000 seconds

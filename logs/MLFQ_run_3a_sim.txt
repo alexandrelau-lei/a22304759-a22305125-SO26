@@ -1,0 +1,56 @@
+[/home/aluno/Trabalho1/queue.c:224] [Scheduler] New client connected: fd=4
+[/home/aluno/Trabalho1/queue.c:224] [Scheduler] New client connected: fd=5
+[/home/aluno/Trabalho1/queue.c:224] [Scheduler] New client connected: fd=6
+[/home/aluno/Trabalho1/queue.c:224] [Scheduler] New client connected: fd=7
+[/home/aluno/Trabalho1/queue.c:224] [Scheduler] New client connected: fd=8
+[/home/aluno/Trabalho1/queue.c:243] Connection closed by client (fd=5)
+[/home/aluno/Trabalho1/queue.c:243] Connection closed by client (fd=6)
+[/home/aluno/Trabalho1/queue.c:243] Connection closed by client (fd=7)
+[/home/aluno/Trabalho1/queue.c:243] Connection closed by client (fd=8)
+OSSIM scheduler configured with algorithm MLFQ
+Scheduler server listening on /tmp/scheduler.sock...
+Time [ms]: 1022	PID: 327	START_TASK
+Time [ms]: 1064	PID: 329	START_TASK
+Time [ms]: 1095	PID: 331	START_TASK
+Time [ms]: 1126	PID: 333	START_TASK
+Time [ms]: 1167	PID: 335	START_TASK
+Time [ms]: 1228	PID: 327	RESPONSE_TIME: 206 ms
+Time [ms]: 1228	PID: 327	START_RUNNING (nivel 0)
+Time [ms]: 1729	PID: 327	DEMOTED: nivel 0 -> 1 (slice esgotado)
+Time [ms]: 1729	PID: 329	RESPONSE_TIME: 665 ms
+Time [ms]: 1729	PID: 329	START_RUNNING (nivel 0)
+Time [ms]: 2230	PID: 329	DEMOTED: nivel 0 -> 1 (slice esgotado)
+Time [ms]: 2230	PID: 331	RESPONSE_TIME: 1135 ms
+Time [ms]: 2230	PID: 331	START_RUNNING (nivel 0)
+Time [ms]: 2740	PID: 331	DEMOTED: nivel 0 -> 1 (slice esgotado)
+Time [ms]: 2740	PID: 333	RESPONSE_TIME: 1614 ms
+Time [ms]: 2740	PID: 333	START_RUNNING (nivel 0)
+Time [ms]: 3249	PID: 333	DEMOTED: nivel 0 -> 1 (slice esgotado)
+Time [ms]: 3249	PID: 335	RESPONSE_TIME: 2082 ms
+Time [ms]: 3249	PID: 335	START_RUNNING (nivel 0)
+Time [ms]: 3750	PID: 335	DEMOTED: nivel 0 -> 1 (slice esgotado)
+Time [ms]: 3750	PID: 327	START_RUNNING (nivel 1)
+Time [ms]: 4752	PID: 327	DEMOTED: nivel 1 -> 2 (slice esgotado)
+Time [ms]: 4752	PID: 329	START_RUNNING (nivel 1)
+Time [ms]: 5274	PID: 329	DONE
+Time [ms]: 5274	PID: 331	START_RUNNING (nivel 1)
+Time [ms]: 6280	PID: 331	DEMOTED: nivel 1 -> 2 (slice esgotado)
+Time [ms]: 6280	PID: 333	START_RUNNING (nivel 1)
+Time [ms]: 7284	PID: 333	DEMOTED: nivel 1 -> 2 (slice esgotado)
+Time [ms]: 7284	PID: 335	START_RUNNING (nivel 1)
+Time [ms]: 8285	PID: 335	DEMOTED: nivel 1 -> 2 (slice esgotado)
+Time [ms]: 8285	PID: 327	START_RUNNING (nivel 2)
+Time [ms]: 10289	PID: 331	START_RUNNING (nivel 2)
+Time [ms]: 10819	PID: 331	DONE
+Time [ms]: 10819	PID: 333	START_RUNNING (nivel 2)
+Time [ms]: 12376	PID: 333	DONE
+Time [ms]: 12376	PID: 335	START_RUNNING (nivel 2)
+Time [ms]: 14382	PID: 327	START_RUNNING (nivel 2)
+Time [ms]: 16382	PID: 335	START_RUNNING (nivel 2)
+Time [ms]: 16966	PID: 335	DONE
+Time [ms]: 16966	PID: 327	START_RUNNING (nivel 2)
+Time [ms]: 31920	PID: 327	DONE
+
+[Signal] Caught signal 15 — stopping scheduler...
+[Scheduler] Cleaning up and shutting down...
+[Scheduler] Shutdown complete.

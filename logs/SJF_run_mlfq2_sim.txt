@@ -1,0 +1,103 @@
+[/home/aluno/Trabalho1/queue.c:224] [Scheduler] New client connected: fd=4
+[/home/aluno/Trabalho1/queue.c:224] [Scheduler] New client connected: fd=5
+[/home/aluno/Trabalho1/queue.c:224] [Scheduler] New client connected: fd=6
+[/home/aluno/Trabalho1/queue.c:243] Connection closed by client (fd=6)
+[/home/aluno/Trabalho1/queue.c:243] Connection closed by client (fd=4)
+OSSIM scheduler configured with algorithm SJF
+Scheduler server listening on /tmp/scheduler.sock...
+Time [ms]: 1009	PID: 259	START_TASK
+Time [ms]: 1040	PID: 261	START_TASK
+Time [ms]: 1070	PID: 263	START_TASK
+Time [ms]: 1213	PID: 259	RESPONSE_TIME: 204 ms
+Time [ms]: 1213	PID: 259	START_RUNNING
+Time [ms]: 1520	PID: 259	DONE
+Time [ms]: 1520	PID: 261	RESPONSE_TIME: 480 ms
+Time [ms]: 1520	PID: 261	START_RUNNING
+Time [ms]: 1828	PID: 261	DONE
+Time [ms]: 1828	PID: 263	RESPONSE_TIME: 758 ms
+Time [ms]: 1828	PID: 263	START_RUNNING
+Time [ms]: 2349	PID: 259	START_TASK
+Time [ms]: 2655	PID: 261	START_TASK
+Time [ms]: 4891	PID: 263	DONE
+Time [ms]: 4891	PID: 259	RESPONSE_TIME: 2542 ms
+Time [ms]: 4891	PID: 259	START_RUNNING
+Time [ms]: 5198	PID: 259	DONE
+Time [ms]: 5198	PID: 261	RESPONSE_TIME: 2543 ms
+Time [ms]: 5198	PID: 261	START_RUNNING
+Time [ms]: 5413	PID: 263	START_TASK
+Time [ms]: 5505	PID: 261	DONE
+Time [ms]: 5505	PID: 263	RESPONSE_TIME: 92 ms
+Time [ms]: 5505	PID: 263	START_RUNNING
+Time [ms]: 5812	PID: 263	DONE
+Time [ms]: 6027	PID: 259	START_TASK
+Time [ms]: 6027	PID: 259	RESPONSE_TIME: 0 ms
+Time [ms]: 6027	PID: 259	START_RUNNING
+Time [ms]: 6333	PID: 261	START_TASK
+Time [ms]: 6333	PID: 259	DONE
+Time [ms]: 6333	PID: 261	RESPONSE_TIME: 0 ms
+Time [ms]: 6333	PID: 261	START_RUNNING
+Time [ms]: 6641	PID: 263	START_TASK
+Time [ms]: 6641	PID: 261	DONE
+Time [ms]: 6641	PID: 263	RESPONSE_TIME: 0 ms
+Time [ms]: 6641	PID: 263	START_RUNNING
+Time [ms]: 6948	PID: 263	DONE
+Time [ms]: 7162	PID: 259	START_TASK
+Time [ms]: 7162	PID: 259	RESPONSE_TIME: 0 ms
+Time [ms]: 7162	PID: 259	START_RUNNING
+Time [ms]: 7468	PID: 261	START_TASK
+Time [ms]: 7468	PID: 259	DONE
+Time [ms]: 7468	PID: 261	RESPONSE_TIME: 0 ms
+Time [ms]: 7468	PID: 261	START_RUNNING
+Time [ms]: 7775	PID: 263	START_TASK
+Time [ms]: 7775	PID: 261	DONE
+Time [ms]: 7775	PID: 263	RESPONSE_TIME: 0 ms
+Time [ms]: 7775	PID: 263	START_RUNNING
+Time [ms]: 8080	PID: 263	DONE
+Time [ms]: 8296	PID: 259	START_TASK
+Time [ms]: 8296	PID: 259	RESPONSE_TIME: 0 ms
+Time [ms]: 8296	PID: 259	START_RUNNING
+Time [ms]: 8601	PID: 261	START_TASK
+Time [ms]: 8601	PID: 259	DONE
+Time [ms]: 8601	PID: 261	RESPONSE_TIME: 0 ms
+Time [ms]: 8601	PID: 261	START_RUNNING
+Time [ms]: 8907	PID: 263	START_TASK
+Time [ms]: 8907	PID: 261	DONE
+Time [ms]: 8907	PID: 263	RESPONSE_TIME: 0 ms
+Time [ms]: 8907	PID: 263	START_RUNNING
+Time [ms]: 9213	PID: 263	DONE
+Time [ms]: 9428	PID: 259	START_TASK
+Time [ms]: 9428	PID: 259	RESPONSE_TIME: 0 ms
+Time [ms]: 9428	PID: 259	START_RUNNING
+Time [ms]: 9734	PID: 261	START_TASK
+Time [ms]: 9734	PID: 259	DONE
+Time [ms]: 9734	PID: 261	RESPONSE_TIME: 0 ms
+Time [ms]: 9734	PID: 261	START_RUNNING
+Time [ms]: 10040	PID: 263	START_TASK
+Time [ms]: 10040	PID: 261	DONE
+Time [ms]: 10040	PID: 263	RESPONSE_TIME: 0 ms
+Time [ms]: 10040	PID: 263	START_RUNNING
+Time [ms]: 10346	PID: 263	DONE
+Time [ms]: 10559	PID: 259	START_TASK
+Time [ms]: 10559	PID: 259	RESPONSE_TIME: 0 ms
+Time [ms]: 10559	PID: 259	START_RUNNING
+Time [ms]: 10865	PID: 261	START_TASK
+Time [ms]: 10865	PID: 259	DONE
+Time [ms]: 10865	PID: 261	RESPONSE_TIME: 0 ms
+Time [ms]: 10865	PID: 261	START_RUNNING
+Time [ms]: 11170	PID: 263	START_TASK
+Time [ms]: 11170	PID: 261	DONE
+Time [ms]: 11170	PID: 263	RESPONSE_TIME: 0 ms
+Time [ms]: 11170	PID: 263	START_RUNNING
+Time [ms]: 11689	PID: 259	START_TASK
+Time [ms]: 11995	PID: 261	START_TASK
+Time [ms]: 14227	PID: 263	DONE
+Time [ms]: 14227	PID: 259	RESPONSE_TIME: 2538 ms
+Time [ms]: 14227	PID: 259	START_RUNNING
+Time [ms]: 14533	PID: 259	DONE
+Time [ms]: 14533	PID: 261	RESPONSE_TIME: 2538 ms
+Time [ms]: 14533	PID: 261	START_RUNNING
+Time [ms]: 14839	PID: 261	DONE
+
+[Signal] Caught signal 15 — stopping scheduler...
+[Scheduler] Cleaning up and shutting down...
+[Scheduler] Shutdown complete.

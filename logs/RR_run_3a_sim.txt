@@ -1,0 +1,91 @@
+[/home/aluno/Trabalho1/queue.c:224] [Scheduler] New client connected: fd=4
+[/home/aluno/Trabalho1/queue.c:224] [Scheduler] New client connected: fd=5
+[/home/aluno/Trabalho1/queue.c:224] [Scheduler] New client connected: fd=6
+[/home/aluno/Trabalho1/queue.c:224] [Scheduler] New client connected: fd=7
+[/home/aluno/Trabalho1/queue.c:224] [Scheduler] New client connected: fd=8
+[/home/aluno/Trabalho1/queue.c:243] Connection closed by client (fd=5)
+[/home/aluno/Trabalho1/queue.c:243] Connection closed by client (fd=6)
+[/home/aluno/Trabalho1/queue.c:243] Connection closed by client (fd=7)
+[/home/aluno/Trabalho1/queue.c:243] Connection closed by client (fd=8)
+OSSIM scheduler configured with algorithm RR
+Scheduler server listening on /tmp/scheduler.sock...
+Time [ms]: 1022	PID: 271	START_TASK
+Time [ms]: 1063	PID: 273	START_TASK
+Time [ms]: 1094	PID: 275	START_TASK
+Time [ms]: 1124	PID: 277	START_TASK
+Time [ms]: 1155	PID: 279	START_TASK
+Time [ms]: 1226	PID: 271	RESPONSE_TIME: 204 ms
+Time [ms]: 1226	PID: 271	START_RUNNING
+Time [ms]: 1726	PID: 271	PREEMPTED (slice esgotado)
+Time [ms]: 1726	PID: 273	RESPONSE_TIME: 663 ms
+Time [ms]: 1726	PID: 273	START_RUNNING
+Time [ms]: 2235	PID: 273	PREEMPTED (slice esgotado)
+Time [ms]: 2235	PID: 275	RESPONSE_TIME: 1141 ms
+Time [ms]: 2235	PID: 275	START_RUNNING
+Time [ms]: 2743	PID: 275	PREEMPTED (slice esgotado)
+Time [ms]: 2743	PID: 277	RESPONSE_TIME: 1619 ms
+Time [ms]: 2743	PID: 277	START_RUNNING
+Time [ms]: 3251	PID: 277	PREEMPTED (slice esgotado)
+Time [ms]: 3251	PID: 279	RESPONSE_TIME: 2096 ms
+Time [ms]: 3251	PID: 279	START_RUNNING
+Time [ms]: 3751	PID: 279	PREEMPTED (slice esgotado)
+Time [ms]: 3751	PID: 271	START_RUNNING
+Time [ms]: 4259	PID: 271	PREEMPTED (slice esgotado)
+Time [ms]: 4259	PID: 273	START_RUNNING
+Time [ms]: 4768	PID: 273	DONE
+Time [ms]: 4768	PID: 275	START_RUNNING
+Time [ms]: 5277	PID: 275	PREEMPTED (slice esgotado)
+Time [ms]: 5277	PID: 277	START_RUNNING
+Time [ms]: 5784	PID: 277	PREEMPTED (slice esgotado)
+Time [ms]: 5784	PID: 279	START_RUNNING
+Time [ms]: 6293	PID: 279	PREEMPTED (slice esgotado)
+Time [ms]: 6293	PID: 271	START_RUNNING
+Time [ms]: 6793	PID: 271	PREEMPTED (slice esgotado)
+Time [ms]: 6793	PID: 275	START_RUNNING
+Time [ms]: 7302	PID: 275	PREEMPTED (slice esgotado)
+Time [ms]: 7302	PID: 277	START_RUNNING
+Time [ms]: 7811	PID: 277	PREEMPTED (slice esgotado)
+Time [ms]: 7811	PID: 279	START_RUNNING
+Time [ms]: 8319	PID: 279	PREEMPTED (slice esgotado)
+Time [ms]: 8319	PID: 271	START_RUNNING
+Time [ms]: 8828	PID: 271	PREEMPTED (slice esgotado)
+Time [ms]: 8828	PID: 275	START_RUNNING
+Time [ms]: 9329	PID: 275	PREEMPTED (slice esgotado)
+Time [ms]: 9329	PID: 277	START_RUNNING
+Time [ms]: 9830	PID: 277	PREEMPTED (slice esgotado)
+Time [ms]: 9830	PID: 279	START_RUNNING
+Time [ms]: 10332	PID: 279	PREEMPTED (slice esgotado)
+Time [ms]: 10332	PID: 271	START_RUNNING
+Time [ms]: 10840	PID: 271	PREEMPTED (slice esgotado)
+Time [ms]: 10840	PID: 275	START_RUNNING
+Time [ms]: 10850	PID: 275	DONE
+Time [ms]: 10850	PID: 277	START_RUNNING
+Time [ms]: 11359	PID: 277	PREEMPTED (slice esgotado)
+Time [ms]: 11359	PID: 279	START_RUNNING
+Time [ms]: 11868	PID: 279	PREEMPTED (slice esgotado)
+Time [ms]: 11868	PID: 271	START_RUNNING
+Time [ms]: 12377	PID: 271	PREEMPTED (slice esgotado)
+Time [ms]: 12377	PID: 277	START_RUNNING
+Time [ms]: 12877	PID: 277	PREEMPTED (slice esgotado)
+Time [ms]: 12877	PID: 279	START_RUNNING
+Time [ms]: 13387	PID: 279	PREEMPTED (slice esgotado)
+Time [ms]: 13387	PID: 271	START_RUNNING
+Time [ms]: 13896	PID: 271	PREEMPTED (slice esgotado)
+Time [ms]: 13896	PID: 277	START_RUNNING
+Time [ms]: 13916	PID: 277	DONE
+Time [ms]: 13916	PID: 279	START_RUNNING
+Time [ms]: 14416	PID: 279	PREEMPTED (slice esgotado)
+Time [ms]: 14416	PID: 271	START_RUNNING
+Time [ms]: 14925	PID: 271	PREEMPTED (slice esgotado)
+Time [ms]: 14925	PID: 279	START_RUNNING
+Time [ms]: 15426	PID: 279	PREEMPTED (slice esgotado)
+Time [ms]: 15426	PID: 271	START_RUNNING
+Time [ms]: 15934	PID: 271	PREEMPTED (slice esgotado)
+Time [ms]: 15934	PID: 279	START_RUNNING
+Time [ms]: 15975	PID: 279	DONE
+Time [ms]: 15975	PID: 271	START_RUNNING
+Time [ms]: 31800	PID: 271	DONE
+
+[Signal] Caught signal 15 — stopping scheduler...
+[Scheduler] Cleaning up and shutting down...
+[Scheduler] Shutdown complete.

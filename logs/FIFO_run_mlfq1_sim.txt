@@ -1,0 +1,79 @@
+[/home/aluno/Trabalho1/queue.c:224] [Scheduler] New client connected: fd=4
+[/home/aluno/Trabalho1/queue.c:224] [Scheduler] New client connected: fd=5
+[/home/aluno/Trabalho1/queue.c:224] [Scheduler] New client connected: fd=6
+[/home/aluno/Trabalho1/queue.c:243] Connection closed by client (fd=6)
+[/home/aluno/Trabalho1/queue.c:243] Connection closed by client (fd=4)
+OSSIM scheduler configured with algorithm FIFO
+Scheduler server listening on /tmp/scheduler.sock...
+Time [ms]: 1016	PID: 191	START_TASK
+Time [ms]: 1048	PID: 193	START_TASK
+Time [ms]: 1079	PID: 195	START_TASK
+Time [ms]: 1224	PID: 191	RESPONSE_TIME: 208 ms
+Time [ms]: 1224	PID: 191	START_RUNNING
+Time [ms]: 1532	PID: 191	DONE
+Time [ms]: 1532	PID: 193	RESPONSE_TIME: 484 ms
+Time [ms]: 1532	PID: 193	START_RUNNING
+Time [ms]: 1838	PID: 193	DONE
+Time [ms]: 1838	PID: 195	RESPONSE_TIME: 759 ms
+Time [ms]: 1838	PID: 195	START_RUNNING
+Time [ms]: 2361	PID: 191	START_TASK
+Time [ms]: 2668	PID: 193	START_TASK
+Time [ms]: 14125	PID: 195	DONE
+Time [ms]: 14125	PID: 191	RESPONSE_TIME: 11764 ms
+Time [ms]: 14125	PID: 191	START_RUNNING
+Time [ms]: 14432	PID: 191	DONE
+Time [ms]: 14432	PID: 193	RESPONSE_TIME: 11764 ms
+Time [ms]: 14432	PID: 193	START_RUNNING
+Time [ms]: 14739	PID: 193	DONE
+Time [ms]: 15263	PID: 191	START_TASK
+Time [ms]: 15263	PID: 191	RESPONSE_TIME: 0 ms
+Time [ms]: 15263	PID: 191	START_RUNNING
+Time [ms]: 15572	PID: 193	START_TASK
+Time [ms]: 15572	PID: 191	DONE
+Time [ms]: 15572	PID: 193	RESPONSE_TIME: 0 ms
+Time [ms]: 15572	PID: 193	START_RUNNING
+Time [ms]: 15880	PID: 193	DONE
+Time [ms]: 16402	PID: 191	START_TASK
+Time [ms]: 16402	PID: 191	RESPONSE_TIME: 0 ms
+Time [ms]: 16402	PID: 191	START_RUNNING
+Time [ms]: 16709	PID: 193	START_TASK
+Time [ms]: 16709	PID: 191	DONE
+Time [ms]: 16709	PID: 193	RESPONSE_TIME: 0 ms
+Time [ms]: 16709	PID: 193	START_RUNNING
+Time [ms]: 17017	PID: 193	DONE
+Time [ms]: 17538	PID: 191	START_TASK
+Time [ms]: 17538	PID: 191	RESPONSE_TIME: 0 ms
+Time [ms]: 17538	PID: 191	START_RUNNING
+Time [ms]: 17845	PID: 193	START_TASK
+Time [ms]: 17845	PID: 191	DONE
+Time [ms]: 17845	PID: 193	RESPONSE_TIME: 0 ms
+Time [ms]: 17845	PID: 193	START_RUNNING
+Time [ms]: 18151	PID: 193	DONE
+Time [ms]: 18671	PID: 191	START_TASK
+Time [ms]: 18671	PID: 191	RESPONSE_TIME: 0 ms
+Time [ms]: 18671	PID: 191	START_RUNNING
+Time [ms]: 18975	PID: 193	START_TASK
+Time [ms]: 18975	PID: 191	DONE
+Time [ms]: 18975	PID: 193	RESPONSE_TIME: 0 ms
+Time [ms]: 18975	PID: 193	START_RUNNING
+Time [ms]: 19282	PID: 193	DONE
+Time [ms]: 19803	PID: 191	START_TASK
+Time [ms]: 19803	PID: 191	RESPONSE_TIME: 0 ms
+Time [ms]: 19803	PID: 191	START_RUNNING
+Time [ms]: 20111	PID: 193	START_TASK
+Time [ms]: 20111	PID: 191	DONE
+Time [ms]: 20111	PID: 193	RESPONSE_TIME: 0 ms
+Time [ms]: 20111	PID: 193	START_RUNNING
+Time [ms]: 20418	PID: 193	DONE
+Time [ms]: 20938	PID: 191	START_TASK
+Time [ms]: 20938	PID: 191	RESPONSE_TIME: 0 ms
+Time [ms]: 20938	PID: 191	START_RUNNING
+Time [ms]: 21246	PID: 193	START_TASK
+Time [ms]: 21246	PID: 191	DONE
+Time [ms]: 21246	PID: 193	RESPONSE_TIME: 0 ms
+Time [ms]: 21246	PID: 193	START_RUNNING
+Time [ms]: 21552	PID: 193	DONE
+
+[Signal] Caught signal 15 — stopping scheduler...
+[Scheduler] Cleaning up and shutting down...
+[Scheduler] Shutdown complete.

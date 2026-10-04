@@ -1,0 +1,25 @@
+[/home/aluno/Trabalho1/application.c:55] Application A (PID 159) sent RUN request for 20000 ms
+[/home/aluno/Trabalho1/application.c:69] Received ACK from scheduler for application A (PID 159) at time 1012 ms
+
+[/home/aluno/Trabalho1/application.c:55] Application B (PID 161) sent RUN request for 1000 ms
+[/home/aluno/Trabalho1/application.c:69] Received ACK from scheduler for application B (PID 161) at time 1043 ms
+
+[/home/aluno/Trabalho1/application.c:55] Application C (PID 163) sent RUN request for 2000 ms
+[/home/aluno/Trabalho1/application.c:69] Received ACK from scheduler for application C (PID 163) at time 1084 ms
+
+[/home/aluno/Trabalho1/application.c:55] Application D (PID 165) sent RUN request for 3000 ms
+[/home/aluno/Trabalho1/application.c:69] Received ACK from scheduler for application D (PID 165) at time 1125 ms
+
+[/home/aluno/Trabalho1/application.c:55] Application E (PID 167) sent RUN request for 4000 ms
+[/home/aluno/Trabalho1/application.c:69] Received ACK from scheduler for application E (PID 167) at time 1156 ms
+
+Enqueued burst: time=20000 ms, block=0 ms, nice=0, pages=[]
+Application A (PID 159) finished at time 21688 ms, Elapsed: 20.676 seconds, CPU: 20.000 seconds, BLOCKED: 0.000 seconds
+Enqueued burst: time=1000 ms, block=0 ms, nice=0, pages=[]
+Application B (PID 161) finished at time 22710 ms, Elapsed: 21.667 seconds, CPU: 1.000 seconds, BLOCKED: 0.000 seconds
+Enqueued burst: time=2000 ms, block=0 ms, nice=0, pages=[]
+Application C (PID 163) finished at time 24749 ms, Elapsed: 23.665 seconds, CPU: 2.000 seconds, BLOCKED: 0.000 seconds
+Enqueued burst: time=3000 ms, block=0 ms, nice=0, pages=[]
+Application D (PID 165) finished at time 27813 ms, Elapsed: 26.688 seconds, CPU: 3.000 seconds, BLOCKED: 0.000 seconds
+Enqueued burst: time=4000 ms, block=0 ms, nice=0, pages=[]
+Application E (PID 167) finished at time 31900 ms, Elapsed: 30.744 seconds, CPU: 4.000 seconds, BLOCKED: 0.000 seconds

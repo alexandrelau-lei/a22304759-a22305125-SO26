@@ -1,0 +1,35 @@
+[/home/aluno/Trabalho1/queue.c:224] [Scheduler] New client connected: fd=4
+[/home/aluno/Trabalho1/queue.c:224] [Scheduler] New client connected: fd=5
+[/home/aluno/Trabalho1/queue.c:224] [Scheduler] New client connected: fd=6
+[/home/aluno/Trabalho1/queue.c:224] [Scheduler] New client connected: fd=7
+[/home/aluno/Trabalho1/queue.c:224] [Scheduler] New client connected: fd=8
+[/home/aluno/Trabalho1/queue.c:243] Connection closed by client (fd=4)
+[/home/aluno/Trabalho1/queue.c:243] Connection closed by client (fd=5)
+[/home/aluno/Trabalho1/queue.c:243] Connection closed by client (fd=6)
+[/home/aluno/Trabalho1/queue.c:243] Connection closed by client (fd=7)
+OSSIM scheduler configured with algorithm SJF
+Scheduler server listening on /tmp/scheduler.sock...
+Time [ms]: 1021	PID: 231	START_TASK
+Time [ms]: 1052	PID: 233	START_TASK
+Time [ms]: 1083	PID: 235	START_TASK
+Time [ms]: 1113	PID: 237	START_TASK
+Time [ms]: 1144	PID: 239	START_TASK
+Time [ms]: 1225	PID: 231	RESPONSE_TIME: 204 ms
+Time [ms]: 1225	PID: 231	START_RUNNING
+Time [ms]: 7342	PID: 231	DONE
+Time [ms]: 7342	PID: 233	RESPONSE_TIME: 6290 ms
+Time [ms]: 7342	PID: 233	START_RUNNING
+Time [ms]: 13465	PID: 233	DONE
+Time [ms]: 13465	PID: 235	RESPONSE_TIME: 12382 ms
+Time [ms]: 13465	PID: 235	START_RUNNING
+Time [ms]: 19572	PID: 235	DONE
+Time [ms]: 19572	PID: 237	RESPONSE_TIME: 18459 ms
+Time [ms]: 19572	PID: 237	START_RUNNING
+Time [ms]: 25687	PID: 237	DONE
+Time [ms]: 25687	PID: 239	RESPONSE_TIME: 24543 ms
+Time [ms]: 25687	PID: 239	START_RUNNING
+Time [ms]: 31800	PID: 239	DONE
+
+[Signal] Caught signal 15 — stopping scheduler...
+[Scheduler] Cleaning up and shutting down...
+[Scheduler] Shutdown complete.

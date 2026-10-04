@@ -1,0 +1,93 @@
+[/home/aluno/Trabalho1/queue.c:224] [Scheduler] New client connected: fd=4
+[/home/aluno/Trabalho1/queue.c:224] [Scheduler] New client connected: fd=5
+[/home/aluno/Trabalho1/queue.c:224] [Scheduler] New client connected: fd=6
+[/home/aluno/Trabalho1/queue.c:243] Connection closed by client (fd=4)
+[/home/aluno/Trabalho1/queue.c:243] Connection closed by client (fd=5)
+OSSIM scheduler configured with algorithm RR
+Scheduler server listening on /tmp/scheduler.sock...
+Time [ms]: 1009	PID: 303	START_TASK
+Time [ms]: 1039	PID: 305	START_TASK
+Time [ms]: 1080	PID: 307	START_TASK
+Time [ms]: 1213	PID: 303	RESPONSE_TIME: 204 ms
+Time [ms]: 1213	PID: 303	START_RUNNING
+Time [ms]: 1518	PID: 303	DONE
+Time [ms]: 1518	PID: 305	RESPONSE_TIME: 479 ms
+Time [ms]: 1518	PID: 305	START_RUNNING
+Time [ms]: 1824	PID: 305	DONE
+Time [ms]: 1824	PID: 307	RESPONSE_TIME: 744 ms
+Time [ms]: 1824	PID: 307	START_RUNNING
+Time [ms]: 2343	PID: 303	START_TASK
+Time [ms]: 2650	PID: 305	START_TASK
+Time [ms]: 2838	PID: 307	PREEMPTED (slice esgotado)
+Time [ms]: 2838	PID: 303	RESPONSE_TIME: 495 ms
+Time [ms]: 2838	PID: 303	START_RUNNING
+Time [ms]: 3209	PID: 303	DONE
+Time [ms]: 3209	PID: 305	RESPONSE_TIME: 559 ms
+Time [ms]: 3209	PID: 305	START_RUNNING
+Time [ms]: 3519	PID: 305	DONE
+Time [ms]: 3519	PID: 307	START_RUNNING
+Time [ms]: 4063	PID: 303	START_TASK
+Time [ms]: 4370	PID: 305	START_TASK
+Time [ms]: 4524	PID: 307	PREEMPTED (slice esgotado)
+Time [ms]: 4524	PID: 303	RESPONSE_TIME: 461 ms
+Time [ms]: 4524	PID: 303	START_RUNNING
+Time [ms]: 4830	PID: 303	DONE
+Time [ms]: 4830	PID: 305	RESPONSE_TIME: 460 ms
+Time [ms]: 4830	PID: 305	START_RUNNING
+Time [ms]: 5136	PID: 305	DONE
+Time [ms]: 5136	PID: 307	START_RUNNING
+Time [ms]: 5657	PID: 303	START_TASK
+Time [ms]: 5963	PID: 305	START_TASK
+Time [ms]: 6137	PID: 307	PREEMPTED (slice esgotado)
+Time [ms]: 6137	PID: 303	RESPONSE_TIME: 480 ms
+Time [ms]: 6137	PID: 303	START_RUNNING
+Time [ms]: 6443	PID: 303	DONE
+Time [ms]: 6443	PID: 305	RESPONSE_TIME: 480 ms
+Time [ms]: 6443	PID: 305	START_RUNNING
+Time [ms]: 6749	PID: 305	DONE
+Time [ms]: 6749	PID: 307	START_RUNNING
+Time [ms]: 7271	PID: 303	START_TASK
+Time [ms]: 7579	PID: 305	START_TASK
+Time [ms]: 7753	PID: 307	PREEMPTED (slice esgotado)
+Time [ms]: 7753	PID: 303	RESPONSE_TIME: 482 ms
+Time [ms]: 7753	PID: 303	START_RUNNING
+Time [ms]: 8059	PID: 303	DONE
+Time [ms]: 8059	PID: 305	RESPONSE_TIME: 480 ms
+Time [ms]: 8059	PID: 305	START_RUNNING
+Time [ms]: 8363	PID: 305	DONE
+Time [ms]: 8363	PID: 307	START_RUNNING
+Time [ms]: 8883	PID: 303	START_TASK
+Time [ms]: 9189	PID: 305	START_TASK
+Time [ms]: 9363	PID: 307	PREEMPTED (slice esgotado)
+Time [ms]: 9363	PID: 303	RESPONSE_TIME: 480 ms
+Time [ms]: 9363	PID: 303	START_RUNNING
+Time [ms]: 9668	PID: 303	DONE
+Time [ms]: 9668	PID: 305	RESPONSE_TIME: 479 ms
+Time [ms]: 9668	PID: 305	START_RUNNING
+Time [ms]: 9974	PID: 305	DONE
+Time [ms]: 9974	PID: 307	START_RUNNING
+Time [ms]: 10493	PID: 303	START_TASK
+Time [ms]: 10801	PID: 305	START_TASK
+Time [ms]: 10985	PID: 307	PREEMPTED (slice esgotado)
+Time [ms]: 10985	PID: 303	RESPONSE_TIME: 492 ms
+Time [ms]: 10985	PID: 303	START_RUNNING
+Time [ms]: 11291	PID: 303	DONE
+Time [ms]: 11291	PID: 305	RESPONSE_TIME: 490 ms
+Time [ms]: 11291	PID: 305	START_RUNNING
+Time [ms]: 11598	PID: 305	DONE
+Time [ms]: 11598	PID: 307	START_RUNNING
+Time [ms]: 12119	PID: 303	START_TASK
+Time [ms]: 12426	PID: 305	START_TASK
+Time [ms]: 12600	PID: 307	PREEMPTED (slice esgotado)
+Time [ms]: 12600	PID: 303	RESPONSE_TIME: 481 ms
+Time [ms]: 12600	PID: 303	START_RUNNING
+Time [ms]: 12906	PID: 303	DONE
+Time [ms]: 12906	PID: 305	RESPONSE_TIME: 480 ms
+Time [ms]: 12906	PID: 305	START_RUNNING
+Time [ms]: 13212	PID: 305	DONE
+Time [ms]: 13212	PID: 307	START_RUNNING
+Time [ms]: 18453	PID: 307	DONE
+
+[Signal] Caught signal 15 — stopping scheduler...
+[Scheduler] Cleaning up and shutting down...
+[Scheduler] Shutdown complete.

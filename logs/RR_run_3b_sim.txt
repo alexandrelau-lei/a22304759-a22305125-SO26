@@ -1,0 +1,155 @@
+[/home/aluno/Trabalho1/queue.c:224] [Scheduler] New client connected: fd=4
+[/home/aluno/Trabalho1/queue.c:224] [Scheduler] New client connected: fd=5
+[/home/aluno/Trabalho1/queue.c:224] [Scheduler] New client connected: fd=6
+[/home/aluno/Trabalho1/queue.c:224] [Scheduler] New client connected: fd=7
+[/home/aluno/Trabalho1/queue.c:224] [Scheduler] New client connected: fd=8
+OSSIM scheduler configured with algorithm RR
+Scheduler server listening on /tmp/scheduler.sock...
+Time [ms]: 1006	PID: 287	START_TASK
+Time [ms]: 1046	PID: 289	START_TASK
+Time [ms]: 1077	PID: 291	START_TASK
+Time [ms]: 1107	PID: 293	START_TASK
+Time [ms]: 1138	PID: 295	START_TASK
+Time [ms]: 1209	PID: 287	RESPONSE_TIME: 203 ms
+Time [ms]: 1209	PID: 287	START_RUNNING
+Time [ms]: 1717	PID: 287	PREEMPTED (slice esgotado)
+Time [ms]: 1717	PID: 289	RESPONSE_TIME: 671 ms
+Time [ms]: 1717	PID: 289	START_RUNNING
+Time [ms]: 2225	PID: 289	PREEMPTED (slice esgotado)
+Time [ms]: 2225	PID: 291	RESPONSE_TIME: 1148 ms
+Time [ms]: 2225	PID: 291	START_RUNNING
+Time [ms]: 2731	PID: 291	PREEMPTED (slice esgotado)
+Time [ms]: 2731	PID: 293	RESPONSE_TIME: 1624 ms
+Time [ms]: 2731	PID: 293	START_RUNNING
+Time [ms]: 3237	PID: 293	PREEMPTED (slice esgotado)
+Time [ms]: 3237	PID: 295	RESPONSE_TIME: 2099 ms
+Time [ms]: 3237	PID: 295	START_RUNNING
+Time [ms]: 3743	PID: 295	PREEMPTED (slice esgotado)
+Time [ms]: 3743	PID: 287	START_RUNNING
+Time [ms]: 4252	PID: 287	PREEMPTED (slice esgotado)
+Time [ms]: 4252	PID: 289	START_RUNNING
+Time [ms]: 4761	PID: 289	PREEMPTED (slice esgotado)
+Time [ms]: 4761	PID: 291	START_RUNNING
+Time [ms]: 5270	PID: 291	PREEMPTED (slice esgotado)
+Time [ms]: 5270	PID: 293	START_RUNNING
+Time [ms]: 5770	PID: 293	PREEMPTED (slice esgotado)
+Time [ms]: 5770	PID: 295	START_RUNNING
+Time [ms]: 6271	PID: 295	PREEMPTED (slice esgotado)
+Time [ms]: 6271	PID: 287	START_RUNNING
+Time [ms]: 6771	PID: 287	PREEMPTED (slice esgotado)
+Time [ms]: 6771	PID: 289	START_RUNNING
+Time [ms]: 7280	PID: 289	PREEMPTED (slice esgotado)
+Time [ms]: 7280	PID: 291	START_RUNNING
+Time [ms]: 7789	PID: 291	PREEMPTED (slice esgotado)
+Time [ms]: 7789	PID: 293	START_RUNNING
+Time [ms]: 8298	PID: 293	PREEMPTED (slice esgotado)
+Time [ms]: 8298	PID: 295	START_RUNNING
+Time [ms]: 8807	PID: 295	PREEMPTED (slice esgotado)
+Time [ms]: 8807	PID: 287	START_RUNNING
+Time [ms]: 9315	PID: 287	PREEMPTED (slice esgotado)
+Time [ms]: 9315	PID: 289	START_RUNNING
+Time [ms]: 9824	PID: 289	PREEMPTED (slice esgotado)
+Time [ms]: 9824	PID: 291	START_RUNNING
+Time [ms]: 10326	PID: 291	PREEMPTED (slice esgotado)
+Time [ms]: 10326	PID: 293	START_RUNNING
+Time [ms]: 10843	PID: 293	PREEMPTED (slice esgotado)
+Time [ms]: 10843	PID: 295	START_RUNNING
+Time [ms]: 11346	PID: 295	PREEMPTED (slice esgotado)
+Time [ms]: 11346	PID: 287	START_RUNNING
+Time [ms]: 11846	PID: 287	PREEMPTED (slice esgotado)
+Time [ms]: 11846	PID: 289	START_RUNNING
+Time [ms]: 12350	PID: 289	PREEMPTED (slice esgotado)
+Time [ms]: 12350	PID: 291	START_RUNNING
+Time [ms]: 12858	PID: 291	PREEMPTED (slice esgotado)
+Time [ms]: 12858	PID: 293	START_RUNNING
+Time [ms]: 13367	PID: 293	PREEMPTED (slice esgotado)
+Time [ms]: 13367	PID: 295	START_RUNNING
+Time [ms]: 13867	PID: 295	PREEMPTED (slice esgotado)
+Time [ms]: 13867	PID: 287	START_RUNNING
+Time [ms]: 14375	PID: 287	PREEMPTED (slice esgotado)
+Time [ms]: 14375	PID: 289	START_RUNNING
+Time [ms]: 14876	PID: 289	PREEMPTED (slice esgotado)
+Time [ms]: 14876	PID: 291	START_RUNNING
+Time [ms]: 15377	PID: 291	PREEMPTED (slice esgotado)
+Time [ms]: 15377	PID: 293	START_RUNNING
+Time [ms]: 15887	PID: 293	PREEMPTED (slice esgotado)
+Time [ms]: 15887	PID: 295	START_RUNNING
+Time [ms]: 16396	PID: 295	PREEMPTED (slice esgotado)
+Time [ms]: 16396	PID: 287	START_RUNNING
+Time [ms]: 16896	PID: 287	PREEMPTED (slice esgotado)
+Time [ms]: 16896	PID: 289	START_RUNNING
+Time [ms]: 17398	PID: 289	PREEMPTED (slice esgotado)
+Time [ms]: 17398	PID: 291	START_RUNNING
+Time [ms]: 17898	PID: 291	PREEMPTED (slice esgotado)
+Time [ms]: 17898	PID: 293	START_RUNNING
+Time [ms]: 18399	PID: 293	PREEMPTED (slice esgotado)
+Time [ms]: 18399	PID: 295	START_RUNNING
+Time [ms]: 18901	PID: 295	PREEMPTED (slice esgotado)
+Time [ms]: 18901	PID: 287	START_RUNNING
+Time [ms]: 19406	PID: 287	PREEMPTED (slice esgotado)
+Time [ms]: 19406	PID: 289	START_RUNNING
+Time [ms]: 19908	PID: 289	PREEMPTED (slice esgotado)
+Time [ms]: 19908	PID: 291	START_RUNNING
+Time [ms]: 20409	PID: 291	PREEMPTED (slice esgotado)
+Time [ms]: 20409	PID: 293	START_RUNNING
+Time [ms]: 20909	PID: 293	PREEMPTED (slic[/home/aluno/Trabalho1/queue.c:243] Connection closed by client (fd=4)
+[/home/aluno/Trabalho1/queue.c:243] Connection closed by client (fd=5)
+[/home/aluno/Trabalho1/queue.c:243] Connection closed by client (fd=6)
+[/home/aluno/Trabalho1/queue.c:243] Connection closed by client (fd=7)
+e esgotado)
+Time [ms]: 20909	PID: 295	START_RUNNING
+Time [ms]: 21419	PID: 295	PREEMPTED (slice esgotado)
+Time [ms]: 21419	PID: 287	START_RUNNING
+Time [ms]: 21928	PID: 287	PREEMPTED (slice esgotado)
+Time [ms]: 21928	PID: 289	START_RUNNING
+Time [ms]: 22437	PID: 289	PREEMPTED (slice esgotado)
+Time [ms]: 22437	PID: 291	START_RUNNING
+Time [ms]: 22946	PID: 291	PREEMPTED (slice esgotado)
+Time [ms]: 22946	PID: 293	START_RUNNING
+Time [ms]: 23446	PID: 293	PREEMPTED (slice esgotado)
+Time [ms]: 23446	PID: 295	START_RUNNING
+Time [ms]: 23948	PID: 295	PREEMPTED (slice esgotado)
+Time [ms]: 23948	PID: 287	START_RUNNING
+Time [ms]: 24449	PID: 287	PREEMPTED (slice esgotado)
+Time [ms]: 24449	PID: 289	START_RUNNING
+Time [ms]: 24950	PID: 289	PREEMPTED (slice esgotado)
+Time [ms]: 24950	PID: 291	START_RUNNING
+Time [ms]: 25451	PID: 291	PREEMPTED (slice esgotado)
+Time [ms]: 25451	PID: 293	START_RUNNING
+Time [ms]: 25951	PID: 293	PREEMPTED (slice esgotado)
+Time [ms]: 25951	PID: 295	START_RUNNING
+Time [ms]: 26452	PID: 295	PREEMPTED (slice esgotado)
+Time [ms]: 26452	PID: 287	START_RUNNING
+Time [ms]: 26952	PID: 287	PREEMPTED (slice esgotado)
+Time [ms]: 26952	PID: 289	START_RUNNING
+Time [ms]: 27453	PID: 289	PREEMPTED (slice esgotado)
+Time [ms]: 27453	PID: 291	START_RUNNING
+Time [ms]: 27961	PID: 291	PREEMPTED (slice esgotado)
+Time [ms]: 27961	PID: 293	START_RUNNING
+Time [ms]: 28461	PID: 293	PREEMPTED (slice esgotado)
+Time [ms]: 28461	PID: 295	START_RUNNING
+Time [ms]: 28961	PID: 295	PREEMPTED (slice esgotado)
+Time [ms]: 28961	PID: 287	START_RUNNING
+Time [ms]: 29463	PID: 287	PREEMPTED (slice esgotado)
+Time [ms]: 29463	PID: 289	START_RUNNING
+Time [ms]: 29972	PID: 289	PREEMPTED (slice esgotado)
+Time [ms]: 29972	PID: 291	START_RUNNING
+Time [ms]: 30481	PID: 291	PREEMPTED (slice esgotado)
+Time [ms]: 30481	PID: 293	START_RUNNING
+Time [ms]: 30990	PID: 293	PREEMPTED (slice esgotado)
+Time [ms]: 30990	PID: 295	START_RUNNING
+Time [ms]: 31490	PID: 295	PREEMPTED (slice esgotado)
+Time [ms]: 31490	PID: 287	START_RUNNING
+Time [ms]: 31614	PID: 287	DONE
+Time [ms]: 31614	PID: 289	START_RUNNING
+Time [ms]: 31676	PID: 289	DONE
+Time [ms]: 31676	PID: 291	START_RUNNING
+Time [ms]: 31727	PID: 291	DONE
+Time [ms]: 31727	PID: 293	START_RUNNING
+Time [ms]: 31952	PID: 293	DONE
+Time [ms]: 31952	PID: 295	START_RUNNING
+Time [ms]: 32034	PID: 295	DONE
+
+[Signal] Caught signal 15 — stopping scheduler...
+[Scheduler] Cleaning up and shutting down...
+[Scheduler] Shutdown complete.

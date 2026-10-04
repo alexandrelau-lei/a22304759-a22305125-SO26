@@ -1,0 +1,97 @@
+[/home/aluno/Trabalho1/queue.c:224] [Scheduler] New client connected: fd=4
+[/home/aluno/Trabalho1/queue.c:224] [Scheduler] New client connected: fd=5
+[/home/aluno/Trabalho1/queue.c:224] [Scheduler] New client connected: fd=6
+[/home/aluno/Trabalho1/queue.c:243] Connection closed by client (fd=4)
+[/home/aluno/Trabalho1/queue.c:243] Connection closed by client (fd=5)
+OSSIM scheduler configured with algorithm MLFQ
+Scheduler server listening on /tmp/scheduler.sock...
+Time [ms]: 1009	PID: 359	START_TASK
+Time [ms]: 1050	PID: 361	START_TASK
+Time [ms]: 1081	PID: 363	START_TASK
+Time [ms]: 1213	PID: 359	RESPONSE_TIME: 204 ms
+Time [ms]: 1213	PID: 359	START_RUNNING (nivel 0)
+Time [ms]: 1520	PID: 359	DONE
+Time [ms]: 1520	PID: 361	RESPONSE_TIME: 470 ms
+Time [ms]: 1520	PID: 361	START_RUNNING (nivel 0)
+Time [ms]: 1831	PID: 361	DONE
+Time [ms]: 1831	PID: 363	RESPONSE_TIME: 750 ms
+Time [ms]: 1831	PID: 363	START_RUNNING (nivel 0)
+Time [ms]: 2331	PID: 363	DEMOTED: nivel 0 -> 1 (slice esgotado)
+Time [ms]: 2331	PID: 363	START_RUNNING (nivel 1)
+Time [ms]: 2353	PID: 359	START_TASK
+Time [ms]: 2353	PID: 363	PREEMPTED por PID 359 (nivel 0 < 1)
+Time [ms]: 2353	PID: 359	RESPONSE_TIME: 0 ms
+Time [ms]: 2353	PID: 359	START_RUNNING (nivel 0)
+Time [ms]: 2660	PID: 361	START_TASK
+Time [ms]: 2660	PID: 359	DONE
+Time [ms]: 2660	PID: 361	RESPONSE_TIME: 0 ms
+Time [ms]: 2660	PID: 361	START_RUNNING (nivel 0)
+Time [ms]: 2967	PID: 361	DONE
+Time [ms]: 2967	PID: 363	START_RUNNING (nivel 1)
+Time [ms]: 3487	PID: 359	START_TASK
+Time [ms]: 3487	PID: 363	PREEMPTED por PID 359 (nivel 0 < 1)
+Time [ms]: 3487	PID: 359	RESPONSE_TIME: 0 ms
+Time [ms]: 3487	PID: 359	START_RUNNING (nivel 0)
+Time [ms]: 3793	PID: 361	START_TASK
+Time [ms]: 3793	PID: 359	DONE
+Time [ms]: 3793	PID: 361	RESPONSE_TIME: 0 ms
+Time [ms]: 3793	PID: 361	START_RUNNING (nivel 0)
+Time [ms]: 4100	PID: 361	DONE
+Time [ms]: 4100	PID: 363	START_RUNNING (nivel 1)
+Time [ms]: 4622	PID: 359	START_TASK
+Time [ms]: 4622	PID: 363	PREEMPTED por PID 359 (nivel 0 < 1)
+Time [ms]: 4622	PID: 359	RESPONSE_TIME: 0 ms
+Time [ms]: 4622	PID: 359	START_RUNNING (nivel 0)
+Time [ms]: 4928	PID: 361	START_TASK
+Time [ms]: 4928	PID: 359	DONE
+Time [ms]: 4928	PID: 361	RESPONSE_TIME: 0 ms
+Time [ms]: 4928	PID: 361	START_RUNNING (nivel 0)
+Time [ms]: 5235	PID: 361	DONE
+Time [ms]: 5235	PID: 363	START_RUNNING (nivel 1)
+Time [ms]: 5756	PID: 359	START_TASK
+Time [ms]: 5756	PID: 363	PREEMPTED por PID 359 (nivel 0 < 1)
+Time [ms]: 5756	PID: 359	RESPONSE_TIME: 0 ms
+Time [ms]: 5756	PID: 359	START_RUNNING (nivel 0)
+Time [ms]: 6065	PID: 361	START_TASK
+Time [ms]: 6065	PID: 359	DONE
+Time [ms]: 6065	PID: 361	RESPONSE_TIME: 0 ms
+Time [ms]: 6065	PID: 361	START_RUNNING (nivel 0)
+Time [ms]: 6373	PID: 361	DONE
+Time [ms]: 6373	PID: 363	START_RUNNING (nivel 1)
+Time [ms]: 6894	PID: 359	START_TASK
+Time [ms]: 6894	PID: 363	PREEMPTED por PID 359 (nivel 0 < 1)
+Time [ms]: 6894	PID: 359	RESPONSE_TIME: 0 ms
+Time [ms]: 6894	PID: 359	START_RUNNING (nivel 0)
+Time [ms]: 7201	PID: 361	START_TASK
+Time [ms]: 7201	PID: 359	DONE
+Time [ms]: 7201	PID: 361	RESPONSE_TIME: 0 ms
+Time [ms]: 7201	PID: 361	START_RUNNING (nivel 0)
+Time [ms]: 7514	PID: 361	DONE
+Time [ms]: 7514	PID: 363	START_RUNNING (nivel 1)
+Time [ms]: 8036	PID: 359	START_TASK
+Time [ms]: 8036	PID: 363	PREEMPTED por PID 359 (nivel 0 < 1)
+Time [ms]: 8036	PID: 359	RESPONSE_TIME: 0 ms
+Time [ms]: 8036	PID: 359	START_RUNNING (nivel 0)
+Time [ms]: 8342	PID: 361	START_TASK
+Time [ms]: 8342	PID: 359	DONE
+Time [ms]: 8342	PID: 361	RESPONSE_TIME: 0 ms
+Time [ms]: 8342	PID: 361	START_RUNNING (nivel 0)
+Time [ms]: 8648	PID: 361	DONE
+Time [ms]: 8648	PID: 363	START_RUNNING (nivel 1)
+Time [ms]: 9168	PID: 359	START_TASK
+Time [ms]: 9168	PID: 363	PREEMPTED por PID 359 (nivel 0 < 1)
+Time [ms]: 9168	PID: 359	RESPONSE_TIME: 0 ms
+Time [ms]: 9168	PID: 359	START_RUNNING (nivel 0)
+Time [ms]: 9474	PID: 361	START_TASK
+Time [ms]: 9474	PID: 359	DONE
+Time [ms]: 9474	PID: 361	RESPONSE_TIME: 0 ms
+Time [ms]: 9474	PID: 361	START_RUNNING (nivel 0)
+Time [ms]: 9779	PID: 361	DONE
+Time [ms]: 9779	PID: 363	START_RUNNING (nivel 1)
+Time [ms]: 10779	PID: 363	DEMOTED: nivel 1 -> 2 (slice esgotado)
+Time [ms]: 10779	PID: 363	START_RUNNING (nivel 2)
+Time [ms]: 18515	PID: 363	DONE
+
+[Signal] Caught signal 15 — stopping scheduler...
+[Scheduler] Cleaning up and shutting down...
+[Scheduler] Shutdown complete.
